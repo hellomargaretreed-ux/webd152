@@ -32,13 +32,13 @@ text-align: center; /*tac*/
 header a {
 text-decoration: none; /*tdn*/
 }
-header a :link {
+header a:link {
 color: #fff; /*c#fff*/
 }
-header a :visited {
+header a:visited {
 color: #fff; /*c#fff*/
 }
-header a :hover {
+header a:hover {
 color: #90c7e3; /*c#90c7e3*/
 }
 nav {
@@ -122,6 +122,7 @@ font-weight: bold; /*fwb*/
 background-repeat: no-repeat; /* bgr:norepeat */
 background-size: cover; /*bgc:cover */
 height: 18.75rem; /* h:18.75rem */
+}
 
 #homehero {
 background-image: url(images/coast2.jpg); /*bgimg:url(images/coast2.jpg)*/
@@ -147,7 +148,7 @@ max-width: 100%; /*mw100*/
 box-sizing: border-box; /*bxz*/
 overflow-wrap: break-word; /*owbreakword*/
 }
-}
+
 @media (max-width:32.5rem) {
 body{
     background-image: none;
