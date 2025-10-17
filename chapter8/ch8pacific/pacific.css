@@ -182,7 +182,7 @@ nav li{
     max-width: none;/*mw:none*/
 }
 .card-row {
-    font-display: row;
+    flex-direction: row;
     gap: 2rem;
     max-width: none;
 }
