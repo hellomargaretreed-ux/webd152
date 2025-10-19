@@ -252,6 +252,6 @@ nav li{
     max-width: none;
 }
 .card-row section{
-    flex:1 1 0
-    min width 100px;
+    flex: auto;
+    min-width: 100px;
 }}
